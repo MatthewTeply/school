@@ -1,0 +1,22 @@
+#include <iostream>
+#include <string.h>
+
+using namespace std;
+
+int one, two, res;
+
+void count(int first, int second) {
+
+	int result = first + second;
+	cout << first << " + " << second << " = " << result << endl;;
+}
+
+int main() {
+
+	cout << "Insert the first number : " << flush;
+	cin >> one;
+	cout << "Insert the second number : " << flush;
+	cin >> two;
+	count(one, two);
+	return 0;
+}
